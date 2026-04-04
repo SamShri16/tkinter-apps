@@ -14,6 +14,10 @@ A simple text editor that allows users to write and save notes.
 * Save notes as `.txt` files
 * Clean and minimal UI
 
+## 🖼️ Preview
+
+![Notepad](assets/notepad.png)
+
 ---
 
 ## 🚀 How to Run
