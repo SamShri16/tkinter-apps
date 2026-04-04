@@ -16,7 +16,7 @@ A simple text editor that allows users to write and save notes.
 
 ## 🖼️ Preview
 
-![Notepad](https://raw.githubusercontent.com/SamShri16/tkinter-apps/main/assets/notepad.png)
+https://raw.githubusercontent.com/SamShri16/tkinter-apps/main/assets/notepad.png
 
 ---
 
