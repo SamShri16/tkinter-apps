@@ -16,7 +16,7 @@ A simple text editor that allows users to write and save notes.
 
 ## 🖼️ Preview
 
-![Notepad](assets/notepad.png)
+assets/notepad.png
 
 ---
 
