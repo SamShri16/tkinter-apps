@@ -1,41 +1,96 @@
 # 🖥️ Tkinter Apps Collection
 
-A collection of beginner-friendly desktop applications built using Python and Tkinter.
+A collection of beginner-friendly desktop GUI applications built using Python and Tkinter.
+This project is part of my journey in learning GUI development and building real-world applications.
 
 ---
 
-## 📝 Notepad App
+## 📌 Projects Included
 
-A simple text editor that allows users to write and save notes.
+### 📝 Notepad App
 
-### ✨ Features
+A simple text editor to write and save notes.
 
-* Write and edit text
-* Save notes as `.txt` files
-* Clean and minimal UI
+#### ✨ Features
 
-## 🖼️ Preview
+* Create and edit text
+* Save files locally as `.txt`
+* Minimal and clean interface
 
-https://raw.githubusercontent.com/SamShri16/tkinter-apps/main/assets/notepad.png
+#### 🖼️ Preview
+
+![Notepad](assets/notepad.png)
+
+---
+
+### 🧮 Calculator App
+
+A basic calculator for performing arithmetic operations.
+
+#### ✨ Features
+
+* Addition, subtraction, multiplication, division
+* Error handling for invalid inputs
+* Structured button layout using grid
+
+#### 🖼️ Preview
+
+![Calculator UI](assets/calculator1.png)
+
+![Calculation Example](assets/calculator2.png)
 
 ---
 
 ## 🚀 How to Run
 
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SamShri16/tkinter-apps.git
+```
+
+2. Navigate into the folder:
+
+```bash
+cd tkinter-apps
+```
+
+3. Run the apps:
+
+### Notepad
+
 ```bash
 python notepad/notepad.py
 ```
 
+### Calculator
+
+```bash
+python calculator/calculator.py
+```
+
 ---
 
-## 📌 About
+## 🛠️ Tech Stack
 
-This project is part of my journey in learning GUI development using Tkinter.
+* Python
+* Tkinter
 
-More applications will be added soon.
+---
+
+## 📈 Future Improvements
+
+* Dark mode UI
+* Advanced scientific calculator
+* Multiple tabs in notepad
+* Improved UI/UX design
 
 ---
 
 ## 👨‍💻 Author
 
 Samarth Shrivastava
+
+---
+
+⭐ If you like this project, consider giving it a star!
