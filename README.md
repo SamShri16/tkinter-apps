@@ -41,6 +41,13 @@ A basic calculator for performing arithmetic operations.
 
 ---
 
+## 📚 Learning Outcome
+- Basics of GUI development
+- Event handling in Tkinter
+- File handling in Python
+
+---
+
 ## 🚀 How to Run
 
 1. Clone the repository:
