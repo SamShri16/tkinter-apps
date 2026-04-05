@@ -7,7 +7,7 @@ root.title("Notepad App")
 root.geometry("600x400")
 
 # Create text area
-text_area = Text(root)
+text_area = Text(root, wrap="word", font=("Arial", 12))
 text_area.pack(expand=True, fill="both")
 
 # Function to save file
