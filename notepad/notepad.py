@@ -3,7 +3,7 @@ from tkinter import filedialog
 
 # Create main window
 root = Tk()
-root.title("Notepad App")
+root.title("Notepad - Tkinter App")
 root.geometry("600x400")
 
 # Create text area
