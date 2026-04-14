@@ -27,17 +27,21 @@ A simple text editor to write and save notes.
 
 A basic calculator for performing arithmetic operations.
 
-#### ✨ Features
 
-* Addition, subtraction, multiplication, division
-* Error handling for invalid inputs
-* Structured button layout using grid
+#### ✨ Features
+- Addition, subtraction, multiplication, division
+- Error handling for invalid inputs
+- Clean and Structured button layout using grid
+- Keyboard input support (0–9, +, -, *, /)
+- Enter key for result, Backspace for delete, Escape to clear
 
 #### 🖼️ Preview
 
 ![Calculator UI](assets/calculator1.png)
 
 ![Calculation Example](assets/calculator2.png)
+
+> 💡 You can also use your keyboard for faster input!
 
 ---
 
