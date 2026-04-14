@@ -7,6 +7,8 @@ root.geometry("300x400")
 entry = Entry(root, font=("Arial", 20))
 entry.grid(row=0, column=0, columnspan=4)
 
+# ---------------- FUNCTIONS ----------------
+
 def click(x):
     entry.insert(END, x)
 
@@ -21,6 +23,28 @@ def calculate():
     except:
         entry.delete(0, END)
         entry.insert(0, "Error")
+
+# ---------------- KEYBOARD SUPPORT ----------------
+
+def key_press(event):
+    key = event.char
+
+    if key in "0123456789+-*/.":
+        entry.insert(END, key)
+
+    elif event.keysym == "Return":
+        calculate()
+
+    elif event.keysym == "BackSpace":
+        entry.delete(len(entry.get())-1, END)
+
+    elif event.keysym == "Escape":
+        clear()
+
+# Bind keyboard
+root.bind("<Key>", key_press)
+
+# ---------------- BUTTONS ----------------
 
 buttons = [
     ('7',1,0), ('8',1,1), ('9',1,2), ('/',1,3),
